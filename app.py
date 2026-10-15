@@ -9,7 +9,7 @@ st.set_page_config(
     page_title="Pedalynx | Demand Intelligence",
     page_icon="🚲",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="expanded"
 )
 
 # --------------------------------------------------
@@ -44,7 +44,7 @@ hr { border-color: #203744; }
 # --------------------------------------------------
 @st.cache_resource
 def load_model():
-    return joblib.load("pedalynx_model.joblib")
+    return joblib.load("pedalynx_model_compressed.joblib")
 
 saved_data = load_model()
 model = saved_data["model"]
