@@ -72,20 +72,20 @@ These results describe performance on the selected dataset and test period. They
 
 ## Installation and Setup
 
+## Installation and Setup
+
 ### 1. Clone the Repository
 
-Replace the placeholder with your actual GitHub repository URL.
-
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/SAHIL4152X/Pedalynx.git
 cd Pedalynx
 ```
 
 ### 2. Create a Virtual Environment
 
-For Windows Command Prompt:
+For Windows Command Prompt with Python 3.13 installed:
 
-```bat
+```bash
 py -3.13 -m venv .venv
 .venv\Scripts\activate
 ```
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open the local URL shown in the terminal, usually http://localhost:8501.
+Open the local URL displayed in the terminal, usually http://localhost:8501.
 
 ## How to Use
 
